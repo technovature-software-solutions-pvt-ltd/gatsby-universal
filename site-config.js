@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
+  siteTitle: `Technovature Software`,
+  siteTitleShort: `Technovature`,
   siteDescription: `An opinionated starter for Gatsby.`,
   siteUrl: `https://gu.fabianschultz.com`,
   themeColor: `#000`,
@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `gatsbyjs`,
+    twitter: `technovature`,
     fbAppId: `966242223397117`,
   },
 };
