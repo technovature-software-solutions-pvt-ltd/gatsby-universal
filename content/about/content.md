@@ -1,21 +1,3 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+## About Me
 
-```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
-
-# To develop
-yarn develop
-
-# To build
-yarn build
-
-# To test SSR (for Lighthouse etc.)
-yarn ssr
-
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
-```
+Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of Glory elder wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second bedroom. Padma and Parvati Sorting Hat Minister of Magic blue turban remember my last.
