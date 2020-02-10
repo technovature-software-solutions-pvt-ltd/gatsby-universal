@@ -2,18 +2,44 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
+    "title": "Artificial Intelligence",
     "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/ai.jpg"
   },
   {
-    "title": "Page Transitions",
+    "title": "Big Data",
     "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/bigdata.jpg"
   },
   {
-    "title": "Intersection Observer",
+    "title": "Cloud Computing",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
-  }]
+    "image": "../images/gallery/cloud.jpg"
+  },
+  {
+    "title": "Internet of Things",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/iot.jpeg"
+  },
+   {
+    "title": "Blockchain",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/blockchain.jpg"
+  },
+  {
+    "title": "Banking & Fintech", 
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/fintech.jpg"
+  },
+  {
+    "title": "Autonomous Vehicles",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/autonomous.jpg"
+  },
+  {
+    "title": "5G Services",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/5g.jpg"
+  }
+    ]
 }
