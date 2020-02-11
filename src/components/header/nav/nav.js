@@ -15,7 +15,7 @@ const Nav = () => (
         <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <a href="https://github.com/fabe/gatsby-universal">GitHub</a>
+        <a href="https://github.com/jnsrikanth">GitHub</a>
       </li>
     </ul>
   </Container>
