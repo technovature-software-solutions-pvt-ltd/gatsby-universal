@@ -7,7 +7,7 @@ import { Container } from './gallery.css';
 const Gallery = ({ items }) => (
   <Container>
     {items.map((item, i) => (
-    <Link to="/" style={{ textDecoration: 'none' }}>  <Item {...item} key={i} /> </Link>
+      <Item {...item} key={i} />
     ))}
   </Container>
 );
