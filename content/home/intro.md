@@ -1,1 +1,2 @@
-Where a Passion for Digital Transformation is powered by an even bigger passion to Design and Innovate. Digital Outcomes Win.
+Digital Transformation is our Passion.
+Innovative Collaboration is our Creed.
