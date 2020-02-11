@@ -7,26 +7,26 @@ import Head from 'components/head';
 
 const Contact = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
+    <Head pageTitle={data.contactJson.title} />
     <Box>
       <div
         dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
+          __html: data.contactJson.content.childMarkdownRemark.html,
         }}
       />
     </Box>
   </Layout>
 );
 
-About.propTypes = {
+Contact.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default About;
+export default Contact;
 
 export const query = graphql`
   query ContactQuery {
-    aboutJson {
+    contactJson {
       title
       content {
         childMarkdownRemark {
