@@ -26,9 +26,8 @@ const AnimatedContainer = posed.div({
 const Header = ({ title }) => (
   <AnimatedContainer>
     <Container>
+  <Link to="/">
      <img src={Logo} alt="Technovature Software" width="120" />
-      <Link to="/">
-        <Title as="h1">{title}</Title>
       </Link>
 
       <Nav />
