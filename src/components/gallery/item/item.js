@@ -4,9 +4,9 @@ import Img from 'gatsby-image';
 import { Link } from 'gatsby';
 import { Title, Copy } from './item.css';
 
-const Item = ({ title, copy, image }) => (
+const Item = ({ title, copy, path, image }) => (
   <figure>
-  <Link to={`/${title}/`} style={{ textDecoration: 'none' }}>
+  <Link to={`/${path}/`} style={{ textDecoration: 'none' }}>
     <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
   </Link>
     <figcaption>
