@@ -41,6 +41,7 @@ export const query = graphql`
       gallery {
         title
         copy
+        path
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
