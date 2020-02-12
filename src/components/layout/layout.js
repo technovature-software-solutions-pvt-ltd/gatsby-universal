@@ -12,7 +12,7 @@ const Layout = ({ data, children }) => (
   <Helmet>
   <link rel="icon" href={favicon} />
 </Helmet>
-   // <GlobalStyle />
+
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
     {children}
