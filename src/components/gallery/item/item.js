@@ -19,6 +19,7 @@ const Item = ({ title, copy, path, image }) => (
 Item.propTypes = {
   title: PropTypes.string,
   copy: PropTypes.string,
+  path: PropTypes.string,
   image: PropTypes.object.isRequired,
 };
 
