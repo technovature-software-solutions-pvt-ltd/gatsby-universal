@@ -4,15 +4,14 @@ import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const Contact = ({ data }) => (
   <Layout>
     <Head pageTitle={data.contactJson.title} />
     <Box>
       <div
-        dangerouslySetInnerHTML={{
-          __html: data.contactJson.content.mdx.body,
-        }}
+  <MDXRenderer>{data.contactJson.content.mdx.body}</MDXRenderer>
       />
     </Box>
   </Layout>
