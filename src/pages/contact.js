@@ -29,7 +29,7 @@ export const query = graphql`
     contactJson {
       title
       content {
-        childMarkdownRemark {
+        mdx {
           html
         }
       }
