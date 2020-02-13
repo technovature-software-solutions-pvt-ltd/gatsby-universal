@@ -10,6 +10,7 @@ export const Container = styled.nav`
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.0rem;
+      font-weight: 400;
 
       & + li {
         margin-left: 2rem;
