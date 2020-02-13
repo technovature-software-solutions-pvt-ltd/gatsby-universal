@@ -11,9 +11,7 @@ const BigData = ({ data }) => (
   <Layout>
     <Head pageTitle={data.bigdataJson.title} />
     <Box>
-      <div
         <MDXRenderer>{data.bigdataJson.content.mdx.body}</MDXRenderer>
-      />
     </Box>
   </Layout>
 );
