@@ -4,15 +4,16 @@ import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+
 
 const BigData = ({ data }) => (
   <Layout>
     <Head pageTitle={data.bigdataJson.title} />
     <Box>
       <div
-        dangerouslySetInnerHTML={{
-          __html: data.bigdataJson.content.childMarkdownRemark.html,
-        }}
+        <MDXRenderer>{data.bigdataJson.content.mdx.body}</MDXRenderer>
       />
     </Box>
   </Layout>
@@ -29,8 +30,8 @@ export const query = graphql`
     bigdataJson {
       title
       content {
-        childMarkdownRemark {
-          html
+        mdx {
+          body
         }
       }
     }
