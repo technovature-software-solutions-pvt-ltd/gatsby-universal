@@ -11,7 +11,7 @@ const Contact = ({ data }) => (
     <Box>
       <div
         dangerouslySetInnerHTML={{
-          __html: data.contactJson.content.childMarkdownRemark.html,
+          __html: data.contactJson.content.mdx.body,
         }}
       />
     </Box>
@@ -30,7 +30,7 @@ export const query = graphql`
       title
       content {
         mdx {
-          html
+          body
         }
       }
     }
