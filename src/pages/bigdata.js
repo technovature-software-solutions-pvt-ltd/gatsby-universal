@@ -5,7 +5,6 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 
 const BigData = ({ data }) => (
