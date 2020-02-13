@@ -7,12 +7,14 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
+import { MDXRenderer } from "gatsby-plugin-mdx";
+
 
 const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        {data.homeJson.content.mdx.body}
       </Title>
       
     </Box>
@@ -33,9 +35,8 @@ export const query = graphql`
     homeJson {
       title
       content {
-        childMarkdownRemark {
-          html
-          rawMarkdownBody
+        mdx {
+         body
         }
       }
       gallery {
