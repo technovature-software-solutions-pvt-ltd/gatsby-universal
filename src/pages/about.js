@@ -9,10 +9,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 const About = ({ data }) => (
   <Layout>
     <Head pageTitle={data.aboutJson.title} />
-    <Box>
-      <div
+    <Box> 
        <MDXRenderer>{data.aboutJson.content.mdx.body}</MDXRenderer>
-      />
     </Box>
   </Layout>
 );
