@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 export const Container = styled.nav`
   ul {
