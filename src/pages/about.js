@@ -12,7 +12,6 @@ const About = ({ data }) => (
     <Box>
       <div
        <MDXRenderer>{data.aboutJson.content.mdx.body}</MDXRenderer>
-        }}
       />
     </Box>
   </Layout>
