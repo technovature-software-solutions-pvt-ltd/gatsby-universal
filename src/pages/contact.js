@@ -10,9 +10,9 @@ const Contact = ({ data }) => (
   <Layout>
     <Head pageTitle={data.contactJson.title} />
     <Box>
-      <div
+
   <MDXRenderer>{data.contactJson.content.mdx.body}</MDXRenderer>
-      />
+
     </Box>
   </Layout>
 );
