@@ -1,4 +1,5 @@
-import Typography from "typography"
+import Typography from "typography";
+import Helmet from 'react-helmet';
 
 const typography = new Typography({
   baseFontSize: "18px",
