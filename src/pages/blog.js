@@ -10,9 +10,7 @@ const Blog = ({ data }) => (
   <Layout>
     <Head pageTitle={data.blogJson.title} />
     <Box>
-      <div
-        <MDXRenderer>{data.blogJson.content.mdx.body}</MDXRenderer>
-      />
+        <MDXRenderer>{data.blogJson.content.mdx.body}</MDXRenderer>  
     </Box>
   </Layout>
 );
