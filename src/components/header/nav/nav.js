@@ -7,7 +7,7 @@ import Helmet from 'react-helmet'
 const Nav = () => (
   <Container>
   <Helmet>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
   </Helmet>
     <ul>
       <li>
